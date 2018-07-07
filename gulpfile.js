@@ -36,7 +36,11 @@ gulp.task("watchFiles", function () {
   gulp.watch("js/main.js", ["concatScripts"]);
 });
 
-gulp.task("build", ["minifyScripts", "compileSass"], function () {
+gulp.task("clean", function () {
+  del(["public/assets/css", "public/assets/js", "css/application.css*", "js/app*.js*"]);
+});
+
+gulp.task("build", ["minifyScripts",  "compileSass"], function () {
   return gulp.src(["css/application.css", "js/app.min.js"], { base: "./" })
   .pipe(gulp.dest("public/assets"));
 });
