@@ -1,0 +1,22 @@
+{
+  "name": "harpoon-ventures",
+  "version": "1.0.0",
+  "description": "The task of LibraFire",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/veljko1992/Harpoon-ventures.git"
+  },
+  "author": "Veljko Ivanović",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/veljko1992/Harpoon-ventures/issues"
+  },
+  "homepage": "https://github.com/veljko1992/Harpoon-ventures#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
