@@ -1,2 +1,153 @@
+* {
+  box-sizing: border-box; }
+
+@font-face {
+  src: url(../public/assets/fonts/FuturaStd-Condensed.otf);
+  font-family: FuturaStd-Condensed; }
+
+@font-face {
+  src: url(../public/assets/fonts/Futura-Std-Bold-Condensed.otf);
+  font-family: FuturaStd-Bold-Condensed; }
+
+a {
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: none;
+  color: white; }
+
+.anchor {
+  display: none;
+  padding: 0;
+  margin: 0;
+  list-style: none; }
+  .anchor li {
+    margin-bottom: 10px;
+    margin-right: 20px; }
+
+.button {
+  background-image: url(../public/assets/img/button-hover.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 70%;
+  background-color: #202F3C;
+  padding: 3px 20px;
+  line-height: 27px;
+  border: 2px solid #55BBBB;
+  color: white;
+  font-size: 14px; }
+
+.button:hover {
+  background-color: #55BBBB; }
+
+#intro {
+  background-image: url(../public/assets/img/intro-img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+  font-family: FuturaStd-Condensed; }
+  #intro .button-wrapper {
+    text-align: right;
+    padding-top: 20px;
+    padding-right: 15px; }
+  #intro #logo {
+    display: flex;
+    justify-content: center; }
+    #intro #logo a {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 70%;
+      text-align: center; }
+  #intro .intro-contact {
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    list-style: none;
+    padding: 0 15px;
+    text-align: center;
+    color: white;
+    font-size: 18px; }
+    #intro .intro-contact li:last-child {
+      margin-top: 10px; }
+    #intro .intro-contact .pulse {
+      animation-name: pulse_animation;
+      animation-duration: 3000ms;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear; }
+
+@keyframes pulse_animation {
+  0% {
+    transform: translateY(3px); }
+  30% {
+    transform: translateY(5px); }
+  40% {
+    transform: translateY(7px); }
+  50% {
+    transform: translateY(5px); }
+  60% {
+    transform: translateY(3px); }
+  70% {
+    transform: translateY(5px); }
+  80% {
+    transform: translateY(7px); }
+  90% {
+    transform: translateY(5px); }
+  100% {
+    transform: translateY(3px); } }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  #intro .button {
+    background-size: 75%;
+    padding: 6px 30px;
+    line-height: 39px;
+    font-size: 15px; } }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  #intro .button-wrapper {
+    padding-top: 40px;
+    padding-right: 70px; }
+  #intro .anchor {
+    display: block;
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%); }
+  #intro .button {
+    background-size: 75%;
+    padding: 8px 34px;
+    line-height: 39px;
+    font-size: 16px; }
+  #intro .intro-contact {
+    font-size: 20px; }
+  #intro .intro-contact li:last-child {
+    margin-top: 15px; } }
+
+/* Large devices (desktops, 992px and up) */
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  #intro .button-wrapper {
+    padding-top: 50px;
+    padding-right: 220px; }
+  #intro #logo a {
+    width: 100%; }
+  #intro .intro-contact {
+    font-size: 30px; }
+  #intro .intro-contact li:last-child {
+    margin-top: 50px; }
+  #intro .anchor {
+    right: 50px; }
+    #intro .anchor li {
+      margin-bottom: 30px; }
+  #intro .button {
+    background-size: 60%;
+    padding: 16px 70px;
+    line-height: 50px;
+    font-size: 18px; } }
 
 /*# sourceMappingURL=application.css.map */
