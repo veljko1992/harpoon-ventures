@@ -1,0 +1,57 @@
+#portfolio {
+  background-image: url(../public/assets/img/portfolio-background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  h2 {
+    padding-top: 50px;
+    margin-bottom: 15px;
+    color: white;
+    font-size: 26px;
+  }
+  .hr-line {
+    width: 180px;
+  }
+  header {
+    color: #55BBBB;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    img {
+      margin-bottom: 20px;
+    }
+  }
+  p {
+    color: white;
+  }
+  h3 {
+    color: white;
+    margin-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  #portfolio {
+    .hr-line {
+      width: 200px;
+      height: 3px;
+    }
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
