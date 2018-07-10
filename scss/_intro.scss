@@ -6,6 +6,7 @@
   background-attachment: fixed;
   height: 100vh;
   font-family: FuturaStd-Condensed;
+  position: relative;
   .button-wrapper {
     text-align: right;
     padding-top: 20px;
@@ -70,13 +71,6 @@
   #intro .button-wrapper {
     padding-top: 40px;
     padding-right: 70px;
-  }
-  #intro .anchor {
-    display: block;
-    position: absolute;
-    right: 15px;
-    top: 50%;
-    transform: translateY(-50%);
   }
   #intro .button {
     background-size: 75%;

@@ -9,6 +9,16 @@
   src: url(../public/assets/fonts/Futura-Std-Bold-Condensed.otf);
   font-family: FuturaStd-Bold-Condensed; }
 
+@font-face {
+  src: url(../public/assets/fonts/OpenSans-Regular.ttf);
+  font-family: OpenSans-Regular; }
+
+h2, h3 {
+  font-family: FuturaStd-Bold-Condensed; }
+
+p {
+  font-family: OpenSans-Regular; }
+
 a {
   text-decoration: none; }
 
@@ -40,6 +50,29 @@ a:hover {
 .button:hover {
   background-color: #55BBBB; }
 
+.hr-line {
+  width: 140px;
+  height: 2px;
+  background-color: #55BBBB;
+  position: absolute;
+  left: 0; }
+
+/* Small devices (landscape phones, 576px and up) */
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .anchor {
+    display: block;
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%); }
+  .anchor {
+    right: 50px; }
+    .anchor li {
+      margin-bottom: 30px; } }
+
+/* Large devices (desktops, 992px and up) */
+/* Extra large devices (large desktops, 1200px and up) */
 #intro {
   background-image: url(../public/assets/img/intro-img.png);
   background-repeat: no-repeat;
@@ -47,7 +80,8 @@ a:hover {
   background-position: center;
   background-attachment: fixed;
   height: 100vh;
-  font-family: FuturaStd-Condensed; }
+  font-family: FuturaStd-Condensed;
+  position: relative; }
   #intro .button-wrapper {
     text-align: right;
     padding-top: 20px;
@@ -112,12 +146,6 @@ a:hover {
   #intro .button-wrapper {
     padding-top: 40px;
     padding-right: 70px; }
-  #intro .anchor {
-    display: block;
-    position: absolute;
-    right: 15px;
-    top: 50%;
-    transform: translateY(-50%); }
   #intro .button {
     background-size: 75%;
     padding: 8px 34px;
@@ -149,5 +177,61 @@ a:hover {
     padding: 16px 70px;
     line-height: 50px;
     font-size: 18px; } }
+
+#about {
+  position: relative; }
+  #about h2 {
+    padding-top: 50px;
+    margin-bottom: 15px;
+    color: #2E5470;
+    font-size: 26px; }
+  #about h3 {
+    color: #2E5470;
+    margin: 20px 0;
+    text-transform: uppercase;
+    font-size: 26px; }
+  #about p {
+    color: #575C5F;
+    font-size: 14px; }
+  #about .about-us-img {
+    display: none; }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  #about .hr-line {
+    width: 140px;
+    height: 3px; } }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  #about .hr-line {
+    width: 160px; }
+  #about .about-us-img {
+    display: block;
+    position: relative;
+    top: -50px; }
+  #about h2, #about h3 {
+    font-size: 32px; } }
+
+/* Large devices (desktops, 992px and up) */
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  #about .hr-line {
+    width: 240px;
+    height: 4px; }
+  #about h2, #about h3 {
+    font-size: 50px; }
+  #about h2 {
+    padding-top: 100px;
+    margin-bottom: 30px; }
+  #about h3 {
+    margin-top: 130px;
+    margin-bottom: 50px; }
+  #about p {
+    font-size: 16px; } }
+
+@media (min-width: 1600px) {
+  #about .hr-line {
+    width: 465px; } }
 
 /*# sourceMappingURL=application.css.map */

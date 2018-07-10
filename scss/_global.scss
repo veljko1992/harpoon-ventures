@@ -9,6 +9,16 @@
   src: url(../public/assets/fonts/Futura-Std-Bold-Condensed.otf);
   font-family: FuturaStd-Bold-Condensed;
 }
+@font-face {
+  src: url(../public/assets/fonts/OpenSans-Regular.ttf);
+  font-family: OpenSans-Regular;
+}
+h2,h3 {
+  font-family: FuturaStd-Bold-Condensed;
+}
+p {
+  font-family: OpenSans-Regular;
+}
 a {
   text-decoration: none;
 }
@@ -40,4 +50,40 @@ a:hover {
 }
 .button:hover {
   background-color: #55BBBB;
+}
+.hr-line {
+  width: 140px;
+  height: 2px;
+  background-color: #55BBBB;
+  position: absolute;
+  left: 0;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .anchor {
+    display: block;
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .anchor {
+    right: 50px;
+    li {
+      margin-bottom: 30px;
+    }
+  }
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
 }
