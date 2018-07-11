@@ -23,11 +23,41 @@
   }
   p {
     color: white;
+    font-size: 14px;
   }
   h3 {
     color: white;
     margin-top: 30px;
     padding-bottom: 30px;
+    text-align: center;
+    padding-top: 20px;
+  }
+  .btn {
+    padding: 3px 20px;
+    line-height: 27px;
+    border: 2px solid #55BBBB;
+    color: white;
+    font-size: 14px;
+    border-radius: 0;
+    a {
+      color: white;
+      font-family: Futura-Std-Medium;
+    }
+    a:hover {
+      // background-color: #55BBBB;
+    }
+  }
+  .portfolio-article:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+    background-color: rgba(255,255,255,0.1);
+    border: 1px solid rgba(255,255,255,0.3);
+    .btn {
+      background-image: url(../public/assets/img/button-hover.png);
+      background-repeat: no-repeat;
+      background-position: left;
+      background-size: 70%;
+    }
   }
 }
 
@@ -38,20 +68,71 @@
       width: 200px;
       height: 3px;
     }
+    .portfolio-article {
+      padding: 0 20px;
+    }
   }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-
+  #portfolio {
+    .hr-line {
+      width: 240px;
+    }
+    .article-wrapper {
+      margin-top: 50px;
+    }
+    .portfolio-article {
+      margin-bottom: 50px;
+    }
+    h2, h3 {
+      font-size: 32px;
+    }
+    p {
+      font-size: 15px;
+    }
+  }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-
+  #portfolio {
+    .article-wrapper {
+      margin-top: 70px;
+    }
+    .portfolio-article {
+      padding: 0 35px;
+    }
+  }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+  #portfolio {
+    h2 {
+      padding-top: 100px;
+    }
+   h2, h3 {
+    font-size: 50px;
+    }
+    p {
+      font-size: 16px;
+    }
+    .hr-line {
+      width: 360px;
+      height: 4px;
+    }
+    .article-wrapper {
+      margin-top: 110px;
+    }
+  }
+}
 
+@media (min-width: 1600px) {
+  #portfolio {
+    .hr-line {
+      width: 580px;
+    }
+  }
 }

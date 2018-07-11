@@ -6,6 +6,10 @@
   font-family: FuturaStd-Condensed;
 }
 @font-face {
+  src: url(../public/assets/fonts/Futura-Std-Medium-Condensed.otf);
+  font-family: Futura-Std-Medium;
+}
+@font-face {
   src: url(../public/assets/fonts/Futura-Std-Bold-Condensed.otf);
   font-family: FuturaStd-Bold-Condensed;
 }
@@ -72,6 +76,14 @@ a:hover {
 }
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
   .anchor {
     display: block;
     position: absolute;
@@ -85,12 +97,4 @@ a:hover {
       margin-bottom: 30px;
     }
   }
-}
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-
-}
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-
 }
