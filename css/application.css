@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   box-sizing: border-box; }
 
@@ -340,7 +341,51 @@ a:hover {
   #portfolio .hr-line {
     width: 580px; } }
 
+#advisors {
+  position: relative; }
+  #advisors h2 {
+    padding-top: 50px;
+    margin-bottom: 15px;
+    color: #2E5470;
+    font-size: 26px; }
+  #advisors h3 {
+    color: #2E5470;
+    font-size: 26px; }
+  #advisors h3:first-of-type {
+    margin-top: 50px;
+    margin-bottom: 50px; }
+  #advisors h4 {
+    color: #55BBBB;
+    margin-top: 20px;
+    padding-left: 24px; }
+  #advisors .hr-line {
+    width: 170px; }
+  #advisors .advisors-wrapper {
+    margin-bottom: 30px;
+    padding: 0 30px; }
+  #advisors .advisors-list {
+    list-style: none;
+    color: #575B5F;
+    padding-left: 30px; }
+    #advisors .advisors-list li::before {
+      content: "•";
+      color: #2E5470;
+      position: relative;
+      left: -8px;
+      font-size: 20px; }
+  #advisors .advisors-last {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; }
+
 /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  #advisors .hr-line {
+    width: 190px;
+    height: 3px; }
+  #advisors .advisors-wrapper {
+    padding: 0; } }
+
 /* Medium devices (tablets, 768px and up) */
 /* Large devices (desktops, 992px and up) */
 /* Extra large devices (large desktops, 1200px and up) */
