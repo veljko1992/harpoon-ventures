@@ -4,7 +4,7 @@
   background-size: cover;
   background-position: center;
   position: relative;
-  height: 100vh;
+  padding-bottom: 40px;
   h2 {
     padding-top: 50px;
     margin-bottom: 15px;
@@ -19,7 +19,7 @@
     font-size: 26px;
     margin-top: 50px;
     text-transform: uppercase;
-    // max-width: 350px;
+    max-width: 658px;
   }
   .investitors-wrapper {
     margin-top: 30px;
@@ -52,6 +52,7 @@
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   #investors {
+    padding-bottom: 70px;
     .hr-line {
       width: 240px;
     }
@@ -74,6 +75,7 @@
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
   #investors {
+    padding-bottom: 140px;
     .hr-line {
       width: 360px;
       height: 4px;

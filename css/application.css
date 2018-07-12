@@ -426,7 +426,7 @@ a:hover {
   background-size: cover;
   background-position: center;
   position: relative;
-  height: 100vh; }
+  padding-bottom: 40px; }
   #investors h2 {
     padding-top: 50px;
     margin-bottom: 15px;
@@ -438,7 +438,8 @@ a:hover {
     color: white;
     font-size: 26px;
     margin-top: 50px;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    max-width: 658px; }
   #investors .investitors-wrapper {
     margin-top: 30px; }
     #investors .investitors-wrapper h4 {
@@ -460,23 +461,27 @@ a:hover {
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-  #investors .hr-line {
-    width: 240px; }
-  #investors h2, #investors h3 {
-    font-size: 32px; }
-  #investors h3 {
-    margin-top: 70px; } }
+  #investors {
+    padding-bottom: 70px; }
+    #investors .hr-line {
+      width: 240px; }
+    #investors h2, #investors h3 {
+      font-size: 32px; }
+    #investors h3 {
+      margin-top: 70px; } }
 
 /* Large devices (desktops, 992px and up) */
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-  #investors .hr-line {
-    width: 360px;
-    height: 4px; }
-  #investors h2, #investors h3 {
-    font-size: 50px; }
-  #investors h2 {
-    padding-top: 100px; } }
+  #investors {
+    padding-bottom: 140px; }
+    #investors .hr-line {
+      width: 360px;
+      height: 4px; }
+    #investors h2, #investors h3 {
+      font-size: 50px; }
+    #investors h2 {
+      padding-top: 100px; } }
 
 @media (min-width: 1600px) {
   #investors .hr-line {
@@ -488,5 +493,12 @@ a:hover {
     margin-top: 40px; }
   #investors .investors-article {
     margin-right: 30px; } }
+
+footer {
+  background: #55BBBB;
+  text-align: center;
+  color: white;
+  font-family: OpenSans-Regular;
+  line-height: 50px; }
 
 /*# sourceMappingURL=application.css.map */
