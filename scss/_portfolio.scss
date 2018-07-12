@@ -1,3 +1,4 @@
+@import "variables";
 #portfolio {
   background-image: url(../public/assets/img/portfolio-background.png);
   background-repeat: no-repeat;
@@ -14,7 +15,7 @@
     width: 180px;
   }
   header {
-    color: #55BBBB;
+    color: $aqua;
     margin-top: 70px;
     margin-bottom: 50px;
     img {
@@ -22,7 +23,7 @@
     }
   }
   p {
-    color: white;
+    color: $white;
     font-size: 14px;
   }
   h3 {
@@ -35,7 +36,7 @@
   .btn {
     padding: 3px 20px;
     line-height: 27px;
-    border: 2px solid #55BBBB;
+    border: 2px solid $aqua;
     color: white;
     font-size: 14px;
     border-radius: 0;

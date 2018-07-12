@@ -1,3 +1,4 @@
+@import "variables";
 * {
   box-sizing: border-box;
 }
@@ -26,7 +27,7 @@ h2,h3 {
 }
 h4 {
   font-family: Futura-Std-Medium;
-  color: #55BBBB;
+  color: $aqua;
 }
 p {
   font-family: OpenSans-Regular;
@@ -39,7 +40,7 @@ a {
 }
 a:hover {
   text-decoration: none;
-  color: white;
+  color: $white;
 }
 .anchor {
   display: none;
@@ -59,17 +60,17 @@ a:hover {
   background-color: #202F3C;
   padding: 3px 20px;
   line-height: 27px;
-  border: 2px solid #55BBBB;
+  border: 2px solid $aqua;
   color: white;
   font-size: 14px;
 }
 .button:hover {
-  background-color: #55BBBB;
+  background-color: $aqua;
 }
 .hr-line {
   width: 140px;
   height: 2px;
-  background-color: #55BBBB;
+  background-color: $aqua;
   position: absolute;
   left: 0;
 }

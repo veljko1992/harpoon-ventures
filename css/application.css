@@ -40,7 +40,7 @@ a {
 
 a:hover {
   text-decoration: none;
-  color: white; }
+  color: #fff; }
 
 .anchor {
   display: none;
@@ -272,7 +272,7 @@ a:hover {
     #portfolio header img {
       margin-bottom: 20px; }
   #portfolio p {
-    color: white;
+    color: #fff;
     font-size: 14px; }
   #portfolio h3 {
     color: white;
@@ -369,7 +369,7 @@ a:hover {
     padding: 0 30px; }
   #advisors .advisors-list {
     list-style: none;
-    color: #575B5F;
+    color: #575C5F;
     padding-left: 30px; }
     #advisors .advisors-list li {
       font-family: OpenSans-Regular; }
@@ -430,12 +430,12 @@ a:hover {
   #investors h2 {
     padding-top: 50px;
     margin-bottom: 15px;
-    color: white;
+    color: #fff;
     font-size: 26px; }
   #investors .hr-line {
     width: 180px; }
   #investors h3 {
-    color: white;
+    color: #fff;
     font-size: 26px;
     margin-top: 50px;
     text-transform: uppercase;
@@ -497,7 +497,7 @@ a:hover {
 footer {
   background: #55BBBB;
   text-align: center;
-  color: white;
+  color: #fff;
   font-family: OpenSans-Regular;
   line-height: 50px; }
 

@@ -1,13 +1,14 @@
+@import "variables";
 #advisors {
   position: relative;
   h2 {
     padding-top: 50px;
     margin-bottom: 15px;
-    color: #2E5470;
+    color: $blue;
     font-size: 26px;
   }
   h3 {
-    color: #2E5470;
+    color: $blue;
     font-size: 26px;
   }
   h3:first-of-type{
@@ -26,14 +27,14 @@
   }
   .advisors-list {
     list-style: none;
-    color: #575B5F;
+    color: $grey;
     padding-left: 30px;
     li {
       font-family: OpenSans-Regular;
     }
   li::before {
     content: "•";
-    color: #2E5470;
+    color: $blue;
     position: relative;
     left: -8px;
     font-size: 20px;
