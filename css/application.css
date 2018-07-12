@@ -3,23 +3,23 @@
   box-sizing: border-box; }
 
 @font-face {
-  src: url(../public/assets/fonts/FuturaStd-Condensed.otf);
+  src: url(../fonts/FuturaStd-Condensed.otf);
   font-family: FuturaStd-Condensed; }
 
 @font-face {
-  src: url(../public/assets/fonts/Futura-Std-Medium-Condensed.otf);
+  src: url(../fonts/Futura-Std-Medium-Condensed.otf);
   font-family: Futura-Std-Medium; }
 
 @font-face {
-  src: url(../public/assets/fonts/Futura-Std-Bold-Condensed.otf);
+  src: url(../fonts/Futura-Std-Bold-Condensed.otf);
   font-family: FuturaStd-Bold-Condensed; }
 
 @font-face {
-  src: url(../public/assets/fonts/OpenSans-Regular.ttf);
+  src: url(../fonts/OpenSans-Regular.ttf);
   font-family: OpenSans-Regular; }
 
 @font-face {
-  src: url(../public/assets/fonts/OpenSans-Italic.ttf);
+  src: url(../fonts/OpenSans-Italic.ttf);
   font-family: OpenSans-Italic; }
 
 h2, h3 {
@@ -52,7 +52,7 @@ a:hover {
     margin-right: 20px; }
 
 .button {
-  background-image: url(../public/assets/img/button-hover.png);
+  background-image: url(../img/button-hover.png);
   background-repeat: no-repeat;
   background-position: left;
   background-size: 70%;
@@ -90,7 +90,7 @@ a:hover {
       margin-bottom: 30px; } }
 
 #intro {
-  background-image: url(../public/assets/img/intro-img.png);
+  background-image: url(../img/intro-img.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -253,7 +253,7 @@ a:hover {
     width: 465px; } }
 
 #portfolio {
-  background-image: url(../public/assets/img/portfolio-background.png);
+  background-image: url(../img/portfolio-background.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -296,7 +296,7 @@ a:hover {
     background-color: rgba(255, 255, 255, 0.1);
     border: 1px solid rgba(255, 255, 255, 0.3); }
     #portfolio .portfolio-article:hover .btn {
-      background-image: url(../public/assets/img/button-hover.png);
+      background-image: url(../img/button-hover.png);
       background-repeat: no-repeat;
       background-position: left;
       background-size: 70%; }
@@ -421,7 +421,7 @@ a:hover {
     width: 565px; } }
 
 #investors {
-  background-image: url(../public/assets/img/investitors-background.png);
+  background-image: url(../img/investitors-background.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

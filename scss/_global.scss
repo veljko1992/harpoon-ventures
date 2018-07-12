@@ -3,23 +3,23 @@
   box-sizing: border-box;
 }
 @font-face {
-  src: url(../public/assets/fonts/FuturaStd-Condensed.otf);
+  src: url(../fonts/FuturaStd-Condensed.otf);
   font-family: FuturaStd-Condensed;
 }
 @font-face {
-  src: url(../public/assets/fonts/Futura-Std-Medium-Condensed.otf);
+  src: url(../fonts/Futura-Std-Medium-Condensed.otf);
   font-family: Futura-Std-Medium;
 }
 @font-face {
-  src: url(../public/assets/fonts/Futura-Std-Bold-Condensed.otf);
+  src: url(../fonts/Futura-Std-Bold-Condensed.otf);
   font-family: FuturaStd-Bold-Condensed;
 }
 @font-face {
-  src: url(../public/assets/fonts/OpenSans-Regular.ttf);
+  src: url(../fonts/OpenSans-Regular.ttf);
   font-family: OpenSans-Regular;
 }
 @font-face {
-  src: url(../public/assets/fonts/OpenSans-Italic.ttf);
+  src: url(../fonts/OpenSans-Italic.ttf);
   font-family: OpenSans-Italic;
 }
 h2,h3 {
@@ -53,7 +53,7 @@ a:hover {
   }
 }
 .button {
-  background-image: url(../public/assets/img/button-hover.png);
+  background-image: url(../img/button-hover.png);
   background-repeat: no-repeat;
   background-position: left;
   background-size: 70%;

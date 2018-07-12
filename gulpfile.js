@@ -18,7 +18,7 @@ gulp.task("concatScripts", function () {
 
 gulp.task("minifyScripts", ["concatScripts"], function () {
   return gulp.src("js/app.js")
-  .pipe(uglify())
+  // .pipe(uglify())
   .pipe(rename("app.min.js"))
   .pipe(gulp.dest("js"));
 });
@@ -41,7 +41,7 @@ gulp.task("clean", function () {
 });
 
 gulp.task("build", ["minifyScripts",  "compileSass"], function () {
-  return gulp.src(["css/application.css", "js/app.min.js"], { base: "./" })
+  return gulp.src(["css/application.css", "js/app.js"], { base: "./" })
   .pipe(gulp.dest("public/assets"));
 });
 

@@ -1,4 +1,3 @@
-
 let sectionID ;
 let sectionPosition;
 

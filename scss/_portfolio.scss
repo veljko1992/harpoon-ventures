@@ -1,6 +1,6 @@
 @import "variables";
 #portfolio {
-  background-image: url(../public/assets/img/portfolio-background.png);
+  background-image: url(../img/portfolio-background.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -51,7 +51,7 @@
     background-color: rgba(255,255,255,0.1);
     border: 1px solid rgba(255,255,255,0.3);
     .btn {
-      background-image: url(../public/assets/img/button-hover.png);
+      background-image: url(../img/button-hover.png);
       background-repeat: no-repeat;
       background-position: left;
       background-size: 70%;
