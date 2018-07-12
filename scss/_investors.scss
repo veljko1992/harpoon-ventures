@@ -1,19 +1,105 @@
+#investors {
+  background-image: url(../public/assets/img/investitors-background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 100vh;
+  h2 {
+    padding-top: 50px;
+    margin-bottom: 15px;
+    color: white;
+    font-size: 26px;
+  }
+  .hr-line {
+    width: 180px;
+  }
+  h3 {
+    color: white;
+    font-size: 26px;
+    margin-top: 50px;
+    text-transform: uppercase;
+    // max-width: 350px;
+  }
+  .investitors-wrapper {
+    margin-top: 30px;
+    h4 {
+      margin-bottom: 20px;
+    }
+  }
+  .investors-article-wrapper {
+    padding-left: 15px;
+  }
+  .investors-article {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: 30px;
+    margin-right: 20px;
+  }
+}
+
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
-
+  #investors {
+    .hr-line {
+      width: 200px;
+      height: 3px;
+    }
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-
+  #investors {
+    .hr-line {
+      width: 240px;
+    }
+    h2, h3 {
+      font-size: 32px;
+    }
+    h3 {
+      margin-top: 70px;
+    }
+  }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+  #investors {
 
+  }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-
+  #investors {
+    .hr-line {
+      width: 360px;
+      height: 4px;
+    }
+    h2, h3 {
+     font-size: 50px;
+   }
+   h2 {
+     padding-top: 100px;
+   }
+  }
+}
+@media (min-width: 1600px) {
+  #investors {
+    .hr-line {
+      width: 580px;
+    }
+    h3 {
+      margin-top: 140px;
+      margin-bottom: 50px;
+    }
+    .investitors-wrapper {
+      margin-top: 40px;
+    }
+    .investors-article {
+      margin-right: 30px;
+    }
+  }
 }

@@ -11,11 +11,9 @@
     font-size: 26px;
   }
   h3:first-of-type{
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin: 50px 0;
   }
   h4 {
-    color: #55BBBB;
     margin-top: 20px;
     padding-left: 24px;
   }
@@ -30,6 +28,9 @@
     list-style: none;
     color: #575B5F;
     padding-left: 30px;
+    li {
+      font-family: OpenSans-Regular;
+    }
   li::before {
     content: "•";
     color: #2E5470;
@@ -60,7 +61,14 @@
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-
+  #advisors {
+    h2, h3 {
+      font-size: 32px;
+    }
+    .hr-line {
+      width: 230px;
+    }
+  }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -70,5 +78,35 @@
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+    #advisors {
+    .hr-line {
+      width: 340px;
+      height: 4px;
+    }
+    h2, h3 {
+     font-size: 50px;
+   }
+   h2 {
+     padding-top: 100px;
+   }
+   h3:first-of-type{
+    margin: 100px 0;
+   }
+   h4 {
+     font-size: 30px;
+   }
+   .advisors-list {
+     li {
+       font-size: 16px;
+     }
+   }
+  }
+}
 
+@media (min-width: 1600px) {
+  #advisors {
+    .hr-line {
+      width: 565px;
+    }
+  }
 }

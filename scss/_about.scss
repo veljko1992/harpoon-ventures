@@ -1,5 +1,6 @@
 #about {
   position: relative;
+  height: 100vh;
   h2 {
     padding-top: 50px;
     margin-bottom: 15px;
@@ -8,7 +9,8 @@
   }
   h3 {
     color: #2E5470;
-    margin: 20px 0;
+    margin-top: 50px;
+    margin-bottom: 20px;
     text-transform: uppercase;
     font-size: 26px;
   }
